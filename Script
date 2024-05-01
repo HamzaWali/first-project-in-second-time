@@ -1,0 +1,25 @@
+// const student= {
+// Name : "hamzaWali",
+// RollNum : 234,
+// Class : 23,
+// CNIC :45898475943590,
+// ContactNo : +923329717040,
+// Gmail : "whamza769@gmail.com"
+// };
+// console.log(student);
+// let
+
+function students (firstName , lastName , age , rollNo , section)
+{
+    this.firstName = firstName 
+    this.lastName = lastName
+    this.age = age
+    this.rollNo = rollNo
+    this.section = section
+}
+let Essa = new students ("Essa" , "khan" , 34 , 3254, "A")
+let Essa1 = new students ("Essa1" , "khan" , 34 , 3254, "A")
+let Essa2= new students ("Essa2" , "khan" , 34 , 3254, "A")
+let Essa3 = new students ("Essa3" , "khan" , 34 , 3254, "A")
+let Essa4 = new students ("Essa4" , "khan" , 34 , 3254, "A")
+console.log (Essa , Essa1 , Essa2 , Essa3 ,Essa4)
